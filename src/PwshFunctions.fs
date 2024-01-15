@@ -1,6 +1,7 @@
 namespace statisticsPS
 
 open DescriptiveFunctions
+open System
 open System.Management.Automation
 
 [<Cmdlet("Get", "ModeFromTable")>]

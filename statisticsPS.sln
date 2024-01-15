@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "statisticsPS", "statisticsPS\statisticsPS.fsproj", "{AB9369F3-A327-4782-934A-01B89A1674D5}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "statisticsPS", "src\statisticsPS.fsproj", "{AB9369F3-A327-4782-934A-01B89A1674D5}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "statisticsPS.Tests", "statisticsPS.Tests\statisticsPS.Tests.fsproj", "{97ADCFD5-7C85-4D88-82BD-EC57099DB82B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AB9369F3-A327-4782-934A-01B89A1674D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB9369F3-A327-4782-934A-01B89A1674D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB9369F3-A327-4782-934A-01B89A1674D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97ADCFD5-7C85-4D88-82BD-EC57099DB82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97ADCFD5-7C85-4D88-82BD-EC57099DB82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97ADCFD5-7C85-4D88-82BD-EC57099DB82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97ADCFD5-7C85-4D88-82BD-EC57099DB82B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
