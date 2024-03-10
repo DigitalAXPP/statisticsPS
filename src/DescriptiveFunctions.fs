@@ -27,4 +27,13 @@ module DescriptiveFunctions
         |> List.head
 
     let getMedianFromTable table =
-        table
+        let length = table |> List.length
+        let sortedTable = table |> List.sort
+        match length % 2 with
+        | 0 -> (float sortedTable.[(length /2)-1] + float sortedTable.[(length /2)]) / 2.0
+        | _ -> float sortedTable.[length /2]
+
+    let getMeanFromTable (table : int list) =
+        let sum = table |> List.sum
+        let length = table |> List.length
+        System.Math.Round (float sum / float length, 2, MidpointRounding.ToEven)
